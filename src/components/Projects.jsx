@@ -8,8 +8,8 @@ export default function Projects({ darkMode }) {
       id: 1,
       title: "WSAbsurd Portofolio",
       description:
-        "Website portofolio modern dan interaktif untuk menampilkan profil, proyek, dan keterampilan",
-      tech: ["React","Vite", "Tailwind"],
+        "Website portofolio modern dan interaktif untuk menampilkan profil Youtuber WSAbsurd",
+      tech: ["React", "Vite", "Tailwind"],
       image: "/images/project1.png",
       demoUrl: "https://wsabsurd.vercel.app/",
       githubUrl: "https://github.com/ajiprasetia/wsabsurd-portofolio",
@@ -17,21 +17,21 @@ export default function Projects({ darkMode }) {
     {
       id: 2,
       title: "Al-Quran Digital",
-      description:
-        "Aplikasi Al-Quran digital dengan fitur membaca, mendengarkan, dan mencari ayat dengan mudah",
-       tech: ["Vite", "Tailwind", "API Integration"],
+      description: "Aplikasi Al-Quran digital menggunakan data dari Quran.com ",
+      tech: ["Vite", "Tailwind", "API Integration"],
       image: "/images/project2.png",
       demoUrl: "https://quran-digital-gilt.vercel.app/",
       githubUrl: "https://github.com/ajiprasetia/quran-digital",
     },
     {
       id: 3,
-      title: "Kumpulan Doa Harian",
-      description: "Aplikasi kumpulan doa-doa pilihan lengkap dengan teks Arab, latin, dan terjemahan",
-      tech: ["Vite", "Tailwind", "API Integration"],
+      title: "Cuaca Pekanbaru",
+      description:
+        "Prakiraan Cuaca kota Pekanbaru menggunakan data resmi dari BMKG",
+      tech: ["Next.js", "Tailwind", "API Integration"],
       image: "/images/project3.png",
-      demoUrl: "https://doa-app-sandy.vercel.app/",
-      githubUrl: "https://github.com/ajiprasetia/doa-app",
+      demoUrl: "https://cuaca-pekanbaru.vercel.app/",
+      githubUrl: "https://github.com/ajiprasetia/cuaca-pekanbaru",
     },
     {
       id: 4,
@@ -45,16 +45,6 @@ export default function Projects({ darkMode }) {
     },
     {
       id: 5,
-      title: "Valconsignment",
-      description:
-        "Platform jual beli akun Valorant yang aman dan terpercaya di Instagram",
-      tech: ["React", "Tailwind", "Chart.js"],
-      image: "/images/project5.png",
-      demoUrl: "https://valconsignment.vercel.app/",
-      githubUrl: "https://github.com/ajiprasetia/valconsignment",
-    },
-    {
-      id: 6,
       title: "Quiz App",
       description:
         "Aplikasi kuis interaktif dengan berbagai kategori soal dan sistem penilaian otomatis",
@@ -64,7 +54,7 @@ export default function Projects({ darkMode }) {
       githubUrl: "https://github.com/ajiprasetia/quiz-app",
     },
     {
-      id: 7,
+      id: 6,
       title: "Exchange App",
       description:
         "Aplikasi konversi mata uang real-time dengan data kurs terkini dari berbagai negara",
