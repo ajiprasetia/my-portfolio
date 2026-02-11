@@ -107,25 +107,6 @@ atau:
 yarn preview
 ```
 
-## 📁 Struktur Project
-
-```
-my-portfolio/
-├── public/             # File statis
-├── src/               # Source code
-│   ├── assets/        # Gambar, font, dll
-│   ├── components/    # React components
-│   ├── App.jsx        # Main App component
-│   └── main.jsx       # Entry point
-├── .gitignore         # Git ignore file
-├── eslint.config.js   # ESLint configuration
-├── index.html         # HTML template
-├── package.json       # Dependencies & scripts
-├── postcss.config.js  # PostCSS configuration
-├── tailwind.config.js # Tailwind CSS configuration
-└── vite.config.js     # Vite configuration
-```
-
 ## 🎨 Customization
 
 ### Mengubah Konten
@@ -160,17 +141,6 @@ Alternatif deployment:
 - **Netlify**: Drag & drop folder `dist/` atau connect ke GitHub
 - **GitHub Pages**: Gunakan GitHub Actions untuk auto-deploy
 - **Railway**: Connect repository dan deploy
-
-## 🤝 Contributing
-
-Contributions, issues, dan feature requests sangat diterima!
-
-Jika Anda ingin berkontribusi:
-1. Fork repository ini
-2. Buat branch baru (`git checkout -b feature/AmazingFeature`)
-3. Commit perubahan Anda (`git commit -m 'Add some AmazingFeature'`)
-4. Push ke branch (`git push origin feature/AmazingFeature`)
-5. Buka Pull Request
 
 ## 📝 License
 
