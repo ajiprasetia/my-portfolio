@@ -16,7 +16,7 @@ export default function Home({ darkMode, scrollToSection }) {
           </div>
           
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6">
-            Halo, Saya <span className="bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">Full Stack Developer</span>
+            Halo, Saya <span className="bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">Web Developer</span>
           </h1>
           
           <p className={`text-lg sm:text-xl mb-8 max-w-2xl mx-auto ${darkMode ? 'text-gray-300' : 'text-gray-600'}`}>
