@@ -97,7 +97,7 @@ export default function About({ darkMode }) {
 
         {/* Skills Section */}
         <div>
-          <h3 className="font-semibold text-xl mb-6 text-center">Skills</h3>
+          <h3 className="font-semibold text-xl mb-6 text-center">Tech Stack</h3>
           <div className="grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-6 gap-3 sm:gap-4 lg:gap-6">
             {skills.map((skill) => (
               <div
