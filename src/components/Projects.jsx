@@ -35,13 +35,13 @@ export default function Projects({ darkMode }) {
     },
     {
       id: 4,
-      title: "Responsive Admin Panel",
+      title: "Admin Panel CRUD",
       description:
-        "Dirancang untuk memberikan pengalaman pengelolaan dashboard yang cepat dan intuitif.",
+        "Admin Panel dengan fitur CRUD untuk manajemen User dan data Produk",
       tech: ["Vite", "React", "Tailwind"],
       image: "/images/project6.png",
-      demoUrl: "https://responsive-admin-panel-seven.vercel.app/",
-      githubUrl: "https://github.com/ajiprasetia/responsive-admin-panel",
+      demoUrl: "https://admin-panel-by-ajiprasetia.vercel.app/",
+      githubUrl: "https://github.com/ajiprasetia/admin-panel",
     },
     {
       id: 5,
